@@ -1,0 +1,26 @@
+{
+  "name": "webpack-err",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.dev.js",
+    "start": "node dist/main.bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "express": "^4.16.4",
+    "webpack": "^4.26.0",
+    "webpack-dev-middleware": "^3.4.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
